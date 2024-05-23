@@ -535,6 +535,7 @@ FW_VERSIONS = {
   CAR.SUBARU_OUTBACK_2023: {
     (Ecu.abs, 0x7b0, None): [
       b'\xa1 #\x14\x00',
+      b'\xa1 #\x16\x00',
       b'\xa1 #\x17\x00',
     ],
     (Ecu.eps, 0x746, None): [
@@ -543,9 +544,11 @@ FW_VERSIONS = {
     ],
     (Ecu.fwdCamera, 0x787, None): [
       b'\t!\x08\x046\x05!\x08\x01/',
+      b'\t!\x08\x046\x00\x00\x00\x00\x00',
     ],
     (Ecu.engine, 0x7a2, None): [
       b'\xed,\xa0q\x07',
+      b'\xed"`@\x07',
       b'\xed,\xa2q\x07',
     ],
     (Ecu.transmission, 0x7a3, None): [
